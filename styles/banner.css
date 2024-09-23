@@ -1,0 +1,9 @@
+.banner {
+    width: 100%;
+    position: relative; /* Para posicionar a imagem */
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }

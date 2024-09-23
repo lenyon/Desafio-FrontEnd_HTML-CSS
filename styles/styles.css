@@ -1,0 +1,34 @@
+@import url(./cabecalho.css);
+@import url(./categorias.css);
+@import url(./banner.css);
+@import url(./categorias.css);
+@import url(cards.css);
+@import url(./facilidades.css);
+@import url(./promocoes.css);
+:root {
+    --branco:#FFFFFF;
+    --preto:#000000;
+    --cinza:#CCCCCC;
+    --verde:#DAF100;
+    --roxo:#9353FF;
+    --rosa:#EE6471;
+    --laranja:#F87F46;
+    --fonte-principal:"Inter";
+}
+
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+}
+
+footer {
+    background-color: var(--preto);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 1em;
+}

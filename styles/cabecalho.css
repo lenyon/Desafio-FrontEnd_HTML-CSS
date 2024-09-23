@@ -1,0 +1,50 @@
+.container__cabecalho {
+    display:flex;
+    background-color: var(--preto);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__links {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+    margin-left: 2em;
+}
+
+.cabecalho__links__item {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0 1em;
+    font-weight: 400;
+}
+
+.cabecalho__pesquisa {
+    margin-right: 2em;
+}
+
+.cabecalho__pesquisa__input {
+    padding: 0.5em;
+    margin-right: 0.5em;
+}
+
+.cabecalho__pesquisa__botao {
+    background-color: transparent;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    border: 1px solid var(--branco);
+    padding: 0.5em;
+}
+
+
+@media (max-width:375px){
+    
+.cabecalho__links__item {
+    display: none;
+}
+
+
+
+
+
+}

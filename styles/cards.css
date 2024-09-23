@@ -1,0 +1,38 @@
+.container__produtos__titulo {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.container__produtos__cards {
+    display: flex;
+    margin:2em 10em;
+    gap:48px;
+}
+
+.container__produtos__cards__item {
+    border: 1px solid var(--cinza);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container__produtos__cards__item__titulo, .container__produtos__cards__item__preco {
+    font-weight: 700;
+    padding: 1em;
+}
+
+.container__produtos__cards__item__descricao {
+    padding: 1em;
+}
+
+.cabecalho__links__item__botao {
+    display: inline-block;
+    background-color: var(--roxo);
+    color: var(--branco);
+    padding: 1em;
+    text-decoration: none;
+    margin: 1em;
+    align-self: flex-start;
+}

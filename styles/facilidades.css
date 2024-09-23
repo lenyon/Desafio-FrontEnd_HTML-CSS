@@ -1,0 +1,39 @@
+.container__facilidades {
+    background-color: var(--preto);
+}
+
+.container__facilidades__titulo {
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+    font-size: 2em;
+    font-weight: 500;
+    padding: 1em;
+}
+
+.facilidades__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adiciona espaço entre os itens */
+}
+
+.facilidades__lista__item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 400px; /* Define a largura máxima */
+    margin-bottom: 2em;
+}
+
+.facilidades__lista__item__titulo {
+    color: var(--verde);
+    padding: 1em;
+    font-weight: bold;
+}
+
+.facilidades__lista__item__descricao {
+    color: var(--branco);
+    padding: 1em;
+    text-align: start
+}

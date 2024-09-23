@@ -1,0 +1,31 @@
+.container__promocoes {
+    margin: 3em 20em;
+    border: 2px solid var(--preto);
+    align-items: center;
+    padding: 1em;
+    justify-content: center;
+    
+}
+
+.promocoes__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.promocoes__titulo {
+    font-size: 20px;
+    padding: 2em;
+}
+
+.promocoes__input {
+    padding: 1em;
+}
+
+.promocoes__botao {
+    color: var(--branco);
+    background-color: var(--roxo);
+    padding: 1em;
+}
